@@ -4,7 +4,7 @@ export default interface Usuario {
   id?: number | null
   nome: string;
   usuario: string;
-  foto: string;
+  foto: string | null;
   senha: string;
   postagem?: Postagem[] | null;
 }
